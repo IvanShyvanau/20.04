@@ -1,0 +1,60 @@
+body{
+display: flex;
+width: 1200px;
+flex-wrap: wrap;
+margin-left: 90px;
+}
+.first{
+  display: flex;
+
+}
+
+.products{
+  display: flex;
+
+
+}
+.card-block{
+  width: 300px;
+  height: 400px;
+  background-color: #00ffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.card-block__picture{
+  background-image: url(https://etk-shop.com.ua/userfiles/image/catalog/photoimg_1140472547.png);
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: #AC3F39;
+  border-radius: 10px;
+  
+}
+
+.card-block__text{
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card-block__texr_write{
+  color: #fff;
+}
+.card-block__texr_red{
+  color: red;
+}
+.card-block__texr_orange{
+  color: orange;
+}
+
+.card-block__box{
+  color: #AC3F39;
+}
+
+card-block_isResponsive
