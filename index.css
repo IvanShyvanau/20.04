@@ -1,4 +1,4 @@
-body{
+/*body{
 display: flex;
 width: 1200px;
 flex-wrap: wrap;
@@ -58,3 +58,86 @@ margin-left: 90px;
 }
 
 card-block_isResponsive
+
+.parent{
+  display: grid;
+  grid-template-columns:50px, 100px 70px;
+  grid-auto-rows: minmax(30px,150px);
+  /*grid-template-rows: 150px 50px;
+}
+
+.child{
+  grid-column-start: 4;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 2;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 50px 100px 30px;
+  grid-template-rows: 1fr 3fr 2fr;
+  grid-template-areas: 
+  "a a a"
+  "c b b"
+  "c b b";
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;x
+  
+}
+
+.child1{
+background-color: #fff000;
+grid-area: a;
+}
+.child2{
+  background-color: #000fff;
+  grid-area: b;
+}
+.child3{
+  background-color: #ee00ff;
+  grid-area: c;
+}*/
+
+
+.box{
+  display: grid;
+  grid-template-columns:50px 50px 50px 50px;
+  grid-template-rows: 20px 20px;
+  grid-template-areas: 
+  "a a b b"
+  "c c e e";
+}
+
+.boxes{
+border: 1px solid #000;
+}
+
+.second-box{
+  grid-area: a;
+}
+
+.six-box{
+  grid-area: e;
+}
+
+.sec-box{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns:200px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-areas: 
+  "a b c d"
+  "a f g g"
+  "j h h h"
+  "j k h h";
+
+}
+.fi-box{
+  grid-area: a;
+}
+
+.fo-box{
+  grid-area: h;
+}
